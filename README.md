@@ -2,6 +2,8 @@
 
 This repository holds [one coder][anelegantcloud]'s solutions to [Project Euler][project-euler].
 
+Try for yourself: `cargo test`
+
 ## Objectives
 
 Development of this repository serves three objectives.
