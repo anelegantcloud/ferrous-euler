@@ -1,6 +1,6 @@
 # Ferrous Euler [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/) ![GitHub Repo stars](https://img.shields.io/github/stars/anelegantcloud/ferrous-euler?style=social) ![Twitter Follow](https://img.shields.io/twitter/follow/anelegantcloud?style=social)
 
-This repository holds [one coder][anelegantcloud]'s solutions to [Project Euler][project-euler].
+This repository holds [one coder][anelegantcloud]'s solutions to the first 100 problems of [Project Euler][project-euler].
 
 Try for yourself: `cargo test`
 
