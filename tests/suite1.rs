@@ -1,6 +1,6 @@
 #[cfg(test)]
-mod tests_correctness {
-    // This module tests numerical output of problem statements for correctness. Solutions:
+mod suite1 {
+    // This module tests numerical output of problem statements 1-10 for correctness.
     // https://github.com/luckytoilet/projecteuler-solutions/blob/master/Solutions.md
 
     use ferrous_euler;
@@ -26,5 +26,13 @@ mod tests_correctness {
         // By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
         let even_fibonacci = ferrous_euler::fibonacci(0, 1, 4000000, 2);
         assert_eq!(even_fibonacci.iter().sum::<usize>(), 4613732);
+    }
+
+    #[test]
+    fn solution_3() {
+        // The prime factors of 13195 are 5, 7, 13 and 29.
+        assert_eq!(ferrous_euler::prime_factors(13195), [5, 7, 13, 29]);
+        // What is the largest prime factor of the number 600851475143 ?
+        assert_eq!(*ferrous_euler::prime_factors(600851475143).last().unwrap(), 6857)
     }
 }
